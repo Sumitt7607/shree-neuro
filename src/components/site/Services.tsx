@@ -1,16 +1,14 @@
 import { Reveal } from "./Reveal";
 import { motion } from "framer-motion";
-import { Brain, Activity, Stethoscope, Zap, HeartPulse, Microscope, ScanLine, Pill } from "lucide-react";
+import { Brain, Activity, Stethoscope, HeartPulse, Microscope, ScanLine } from "lucide-react";
 
 const services = [
   { icon: Brain, title: "Neurology Consults", desc: "Detailed assessment of headache, dizziness, memory & nerve issues." },
   { icon: Activity, title: "EEG & EMG Labs", desc: "In-house electrophysiology with same-day reporting." },
   { icon: ScanLine, title: "Advanced Imaging", desc: "MRI & CT protocols tailored for neurological precision." },
-  { icon: Zap, title: "Epilepsy Care", desc: "Long-term monitoring, medication tuning & lifestyle support." },
   { icon: HeartPulse, title: "Stroke Response", desc: "Rapid triage, thrombolysis pathway & recovery planning." },
   { icon: Microscope, title: "Movement Disorders", desc: "Parkinson's, tremor & dystonia clinics with DBS support." },
   { icon: Stethoscope, title: "Pediatric Neuro", desc: "Developmental delays, seizures & neurogenetic care." },
-  { icon: Pill, title: "Neuro Rehab", desc: "Physio, speech & cognitive therapy under one roof." },
 ];
 
 export function Services() {
@@ -27,7 +25,7 @@ export function Services() {
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 md:mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-12 md:mt-16">
           {services.map((s, i) => (
             <motion.div
               key={s.title}
