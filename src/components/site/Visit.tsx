@@ -17,7 +17,7 @@ export function Visit() {
           <div className="rounded-3xl overflow-hidden glass aspect-[4/3] relative">
             <iframe
               title="Shree Neuro Clinic Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0055523946994!2d77.6093!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sMG%20Road%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1720000000000"
+              src="https://maps.google.com/maps?q=20.466952626497427,85.89679305158471&z=17&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, position: "absolute", inset: 0 }}
@@ -30,10 +30,10 @@ export function Visit() {
           {/* Info Card */}
           <div className="glass rounded-3xl p-6 md:p-10 space-y-5 md:space-y-6">
             {[
-              { icon: MapPin, label: "Address", value: "42, Neuro Avenue, MG Road, Bengaluru 560001" },
+              { icon: MapPin, label: "Address", value: "1st Floor, Ananda Varsha, above DCB Bank, Ice Factory Road, College Square, Cuttack, Odisha 753003" },
               { icon: Clock, label: "Hours", value: "Mon–Sat · 9:00 AM – 8:00 PM · Emergencies 24/7" },
-              { icon: Phone, label: "Phone", value: "+91 12345 67890" },
-              { icon: Mail, label: "Email", value: "hello@shreeneuro.in" },
+              { icon: Phone, label: "Phone", value: "+91 99385 41722" },
+              { icon: Mail, label: "Email", value: "neurologyclinic2222@gmail.com" },
             ].map((i) => (
               <div key={i.label} className="flex gap-4 items-start">
                 <span className="w-10 h-10 shrink-0 rounded-2xl bg-gradient-primary grid place-items-center shadow-glow">
@@ -46,7 +46,7 @@ export function Visit() {
               </div>
             ))}
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=MG+Road+Bengaluru"
+              href="https://www.google.com/maps/dir/?api=1&destination=20.466952626497427,85.89679305158471"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex mt-2 rounded-full bg-gradient-primary text-primary-foreground font-medium px-6 py-3 shadow-glow hover:opacity-90 transition text-sm w-full sm:w-auto justify-center"

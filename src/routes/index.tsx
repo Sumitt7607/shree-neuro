@@ -9,7 +9,7 @@ import { WhyUs } from "@/components/site/WhyUs";
 import { BookCTA } from "@/components/site/BookCTA";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Visit } from "@/components/site/Visit";
-// import { Blog } from "@/components/site/Blog";
+import { Blog } from "@/components/site/Blog";
 import { FAQ } from "@/components/site/FAQ";
 import { Footer } from "@/components/site/Footer";
 
@@ -31,11 +31,10 @@ function Index() {
         <BookCTA />
         <Testimonials />
         <Visit />
-        {/* <Blog /> */}
+        <Blog />
         <FAQ />
       </main>
       <Footer />
     </div>
   );
 }
-

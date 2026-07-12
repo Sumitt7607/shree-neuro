@@ -27,8 +27,8 @@ export function BookCTA() {
               <a href="#visit" className="inline-flex items-center justify-center gap-2 rounded-full bg-background text-foreground font-medium px-6 py-3.5 hover:opacity-90 transition text-sm md:text-base">
                 <Calendar className="w-4 h-4 shrink-0" /> Book appointment
               </a>
-              <a href="tel:+911234567890" className="inline-flex items-center justify-center gap-2 rounded-full bg-background/15 text-primary-foreground font-medium px-6 py-3.5 hover:bg-background/25 transition backdrop-blur text-sm md:text-base">
-                <Phone className="w-4 h-4 shrink-0" /> +91 12345 67890
+              <a href="tel:+919938541722" className="inline-flex items-center justify-center gap-2 rounded-full bg-background/15 text-primary-foreground font-medium px-6 py-3.5 hover:bg-background/25 transition backdrop-blur text-sm md:text-base">
+                <Phone className="w-4 h-4 shrink-0" /> +91 99385 41722
               </a>
             </div>
           </div>
