@@ -30,15 +30,6 @@ export function Hero() {
       <div className="hidden md:block absolute bottom-20 -right-24 w-80 h-80 rounded-full bg-accent/10 blur-3xl animate-pulse-glow" style={{ animationDelay: "2s" }} />
 
       <motion.div style={{ y: textY, opacity }} className="relative z-10 w-full container mx-auto px-4 sm:px-6 pt-28 pb-16">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-sm text-muted-foreground mb-6"
-        >
-          <Sparkles className="w-3.5 h-3.5 text-primary shrink-0" />
-          <span>Advanced neurology, delivered with care</span>
-        </motion.div>
 
         <h1 className="font-display text-[clamp(2.4rem,7vw,7rem)] leading-[0.95] tracking-tighter max-w-5xl">
           {"Healing the mind,".split(" ").map((w, i) => (
