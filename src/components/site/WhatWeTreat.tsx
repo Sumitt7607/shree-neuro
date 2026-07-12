@@ -17,7 +17,7 @@ const conditions = [
 
 export function WhatWeTreat() {
   return (
-    <section id="treat" className="relative py-20 md:py-32 overflow-hidden">
+    <section id="treat" className="relative py-10 md:py-16 overflow-hidden">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal>
           <p className="text-sm uppercase tracking-[0.3em] text-primary/90 mb-4">— Conditions</p>

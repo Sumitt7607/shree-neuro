@@ -3,7 +3,7 @@ import { Calendar, Phone } from "lucide-react";
 
 export function BookCTA() {
   return (
-    <section id="book" className="relative py-20 md:py-32 px-4 sm:px-6">
+    <section id="book" className="relative py-10 md:py-16 px-4 sm:px-6">
       <div className="container mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 40, scale: 0.95 }}

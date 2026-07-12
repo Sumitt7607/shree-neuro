@@ -8,7 +8,7 @@ const stats = [
 
 export function Doctors() {
   return (
-    <section id="doctors" className="relative py-20 md:py-32 px-4 sm:px-6">
+    <section id="doctors" className="relative py-10 md:py-16 px-4 sm:px-6">
       <div className="container mx-auto max-w-7xl">
         <Reveal>
           <p className="text-sm uppercase tracking-[0.3em] text-primary/90 mb-4">— The team</p>

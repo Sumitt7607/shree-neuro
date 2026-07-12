@@ -133,7 +133,7 @@ export function Testimonials() {
   };
 
   return (
-    <section id="testimonials" className="relative py-20 md:py-32 px-4 sm:px-6 overflow-hidden">
+    <section id="testimonials" className="relative py-10 md:py-16 px-4 sm:px-6 overflow-hidden">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <Reveal>

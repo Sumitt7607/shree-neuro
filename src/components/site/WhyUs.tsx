@@ -18,7 +18,7 @@ export function WhyUs() {
   const bgY = useTransform(scrollYProgress, [0, 1], ["-10%", "10%"]);
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 px-4 sm:px-6 overflow-hidden">
+    <section ref={ref} className="relative py-10 md:py-16 px-4 sm:px-6 overflow-hidden">
       <motion.div style={{ y: bgY }} className="absolute inset-0 -z-10">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-80 md:w-[42rem] h-80 md:h-[42rem] rounded-full bg-primary/8 blur-3xl" />
       </motion.div>
