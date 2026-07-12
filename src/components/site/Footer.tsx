@@ -13,9 +13,9 @@ export function Footer() {
               </span>
               <span className="font-display text-xl md:text-2xl">Shree Neuro Clinic</span>
             </div>
-            {/* <p className="mt-4 text-muted-foreground text-sm max-w-sm">
+            <p className="mt-4 text-muted-foreground text-sm max-w-sm">
               Advanced neurology, delivered with warmth. Restoring lives, one mind at a time.
-            </p> */}
+            </p>
           </div>
           <div>
             <div className="text-xs uppercase tracking-widest text-muted-foreground mb-3 md:mb-4">Clinic</div>
